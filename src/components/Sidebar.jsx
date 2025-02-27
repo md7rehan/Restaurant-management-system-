@@ -23,6 +23,7 @@ const Sidebar = () => {
         <div className={`${isDepartmentsOpen ? 'block' : 'hidden'} pl-5`}>
           <div className='cursor-pointer hover:text-blue-400'>Kitchen</div>
           <div className='cursor-pointer hover:text-blue-400'>Service</div>
+          <div className='cursor-pointer hover:text-blue-400'>Management</div>
         </div>
       </div>
 
