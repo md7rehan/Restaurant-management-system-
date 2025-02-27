@@ -8,7 +8,8 @@ import EmployeeList from "./pages/EmployeeList";
 import EmployeeForm from "./pages/EmployeeForm";
 import Offers from "./pages/Offers";
 import Revenue from "./pages/Revenue";
-import FoodMenu from "./pages/FoodMenu";
+import VegMenu from "./pages/VegMenu";
+import NonVegMenu from "./pages/NonVegMenu";
 
 
 const router = createBrowserRouter([
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
                 element: <Billing/>
             },
             {
-                path: 'employeelist',
+                path: 'employee',
                 element: <EmployeeList/>
             },
             {
@@ -42,8 +43,12 @@ const router = createBrowserRouter([
                 element: <Revenue/>
             },
             {
-                path: 'foodmenu',
-                element: <FoodMenu/>
+                path: 'nonvegmenu',
+                element: <NonVegMenu/>
+            },
+            {
+                path: 'vegmenu',
+                element: <VegMenu/>
             }
         ]
     },
