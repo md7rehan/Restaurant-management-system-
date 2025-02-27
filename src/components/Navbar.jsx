@@ -43,11 +43,11 @@ const Navbar = () => {
       <li><a>Employee</a></li>
       <li>
         <details>
-          <summary>Menu</summary>
+          <summary>Food Menu</summary>
           <ul className="p-2">
-            <li><a>Menu</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>y
+            <li><a>Veg</a></li>
+            <li><a>Non Veg </a></li>
+          </ul>
         </details>
       </li>
       <li><a>Revenue</a></li>
